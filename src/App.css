@@ -1,0 +1,135 @@
+body {
+  background-color: #ffe4e1;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main tab */
+.valentine-card {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+  color: #333;
+}
+
+/* Heading */
+.valentine-card h1 {
+
+  font-size: 48px;
+  color: #ff4d6d;
+  margin-bottom: 20px;
+}
+
+/* Quote */
+.valentine-card p {
+  font-size: 18px;
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+}
+
+/* Button */
+.valentine-card button {
+  background-color: #ff4d6d;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.valentine-card button:hover {
+  background-color: #ff7488;
+  transform: scale(1.05);
+}
+
+/* Surprise when you click */
+.surprise {
+  font-size: 24px;
+  color: #ff4d6d;
+  margin-top: 30px;
+}
+
+/* Footer */
+.valentine-card .footer {
+  font-size: 14px;
+  color: #999;
+  margin-top: 40px;
+}
+
+/* Style for the gallery of memories */
+.gallery {
+  margin: 30px 0;
+}
+
+.gallery img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-size: 2em;
+  color: #ff4081;
+  margin-top: 20px;  
+}
+
+p {
+  font-size: 1.5em;
+  color: #333;
+  font-weight: bold;
+  margin-top: 0px;  
+}
+
+/* Style for popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; 
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  animation: fadeIn 0.3s ease-in-out; 
+}
+
+button {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #f50057;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
